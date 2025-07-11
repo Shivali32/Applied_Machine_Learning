@@ -1,0 +1,11 @@
+In a previous project at Capgemini, I was responsible for implementing security measures in the Data Product Catalog Marketplace. One of the key challenges was protecting sensitive customer data and ensuring secure transactions across the platform.
+
+Risks Mitigated:
+
+SQL Injection: To prevent SQL injection attacks, I used parameterized queries and ORMs (Django ORM) to ensure all database interactions were secure.
+Data Exposure: I implemented data encryption for sensitive user data, such as passwords and payment information, using hashing algorithms (e.g., bcrypt) for passwords and SSL/TLS encryption for data in transit.
+Authentication and Authorization: I used JWT (JSON Web Tokens) for secure user authentication and role-based access control to restrict sensitive actions based on user roles.
+Prioritization:
+I prioritized risks based on their potential impact on user trust and data privacy. Protecting personal and financial information was the highest priority, followed by securing the backend from common vulnerabilities like SQL injection. I regularly reviewed security best practices to ensure compliance with industry standards.
+
+These measures ensured that the system remained secure while providing a smooth user experience.
